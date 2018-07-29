@@ -17,20 +17,21 @@ CharsetConverter::~CharsetConverter()
 std::string CharsetConverter::convert(const std::string &source) const
 {
 	const char *sourcePtr = source.c_str();
-	size_t byteCount = source.length(), totalSpaceOfDestinationBuffer = byteCount * 2, availableSpaceOfDestinationBuffer = totalSpaceOfDestinationBuffer;
+	size_t sourceByteCount = source.length(), totalSpaceOfDestinationBuffer = sourceByteCount * 2, availableSpaceOfDestinationBuffer = totalSpaceOfDestinationBuffer;
 	char *destinationBuffer = new char[totalSpaceOfDestinationBuffer], *destinationPtr = destinationBuffer;
 	std::string converted;
-	while (byteCount > 0)
+	size_t convertedCharCount;
+	while (sourceByteCount > 0)
 	{
-		size_t ret = iconv(conversionDescriptor, &sourcePtr, &byteCount, &destinationPtr, &availableSpaceOfDestinationBuffer);
+		size_t ret = iconv(conversionDescriptor, &sourcePtr, &sourceByteCount, &destinationPtr, &availableSpaceOfDestinationBuffer);
 		if (static_cast<size_t>(-1) == ret)
 		{
 			++sourcePtr;
-			--byteCount;
+			--sourceByteCount;
 		}
-		size_t charCount = totalSpaceOfDestinationBuffer - availableSpaceOfDestinationBuffer;
-		converted.append(destinationBuffer, charCount);
+		convertedCharCount = totalSpaceOfDestinationBuffer - availableSpaceOfDestinationBuffer;
 	}
+	converted.append(destinationBuffer, convertedCharCount);
 	delete[] destinationBuffer;
 	return converted;
 }
