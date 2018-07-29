@@ -1,91 +1,53 @@
 OpenCV识别出两张图片的人脸
-
 http://download.csdn.net/download/wuding19891221/5191527
 
-
-
 常用图像算法（图像增强）
-
 http://blog.csdn.net/sinat_22822467/article/details/45970751
 
 https://down.52pojie.cn/%E5%90%BE%E7%88%B1%E7%A0%B4%E8%A7%A3%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/%E5%90%BE%E7%88%B1%E7%A0%B4%E8%A7%A3%E8%AE%BA%E5%9D%9B%E5%AE%98%E6%96%B9%E5%85%A5%E9%97%A8%E6%95%99%E5%AD%A6%E5%9F%B9%E8%AE%AD%E7%AC%AC%E4%B8%80%E6%9C%9F/%E3%80%8A%E5%90%BE%E7%88%B1%E7%A0%B4%E8%A7%A3%E5%9F%B9%E8%AE%AD%E7%AC%AC%E4%B8%80%E8%AF%BE%EF%BC%9A%E7%A0%B4%E8%A7%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E4%B9%8B%E4%BB%8B%E7%BB%8D%E5%B8%B8%E8%A7%81%E5%B7%A5%E5%85%B7%E5%92%8C%E5%A3%B3%E7%9A%84%E7%89%B9%E5%BE%81%E3%80%8B%E8%AE%B2%E5%B8%88%EF%BC%9AHmily/
 
-
-
-值得推荐的C/C++框架和库 - CSDN博客
-http://blog.csdn.net/gatieme/article/details/49360731
-
-
+值得推荐的C/C++框架和库 - CSDN博客 http://blog.csdn.net/gatieme/article/details/49360731
 
 Ubuntu下使用翻墙工具
-
 http://blog.sina.com.cn/s/blog_920b83770102xjxp.html
 
+轻量级Android网络请求框架 - CSDN博客 http://blog.csdn.net/u013632190/article/details/51813470
 
-
-轻量级Android网络请求框架 - CSDN博客
-http://blog.csdn.net/u013632190/article/details/51813470
-
-Java
-
-发送邮件的几种方式 - CSDN博客
-https://blog.csdn.net/qq_32371887/article/details/72821291
-
-
+Java发送邮件的几种方式 - CSDN博客 https://blog.csdn.net/qq_32371887/article/details/72821291
 
 DuiLib版百度网盘
 
-
-
 http://syclient.kuaimai.com/cashier/index/new#/login
 
+单例模式_百度百科 https://baike.baidu.com/item/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/5946627?fr=aladdin
 
-
-单例模式_百度百科
-https://baike.baidu.com/item/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/5946627?fr=aladdin
-
-
-
-Index of /old-gnu/libstdc++
-http://ftp.gnu.org/old-gnu/libstdc++/
-
-
+Index of /old-gnu/libstdc++ http://ftp.gnu.org/old-gnu/libstdc++/
 
 MD5 不使用Signal/Slot 使用回调函数 终止MD5Thread
 
-
-
 vld 测试 fclose
 
+restrict - Wikipedia https://en.wikipedia.org/wiki/Restrict
 
+Android中SurfaceView使用详解 - CSDN博客 https://blog.csdn.net/android_cmos/article/details/68955134
 
-restrict - Wikipedia
-https://en.wikipedia.org/wiki/Restrict
+Windows 下编译 OpenSSL - CSDN博客 https://blog.csdn.net/liang19890820/article/details/51658574/
 
-
-
-Android中SurfaceView使用详解 - CSDN博客
-https://blog.csdn.net/android_cmos/article/details/68955134
-
-
-
-Windows 下编译 OpenSSL - CSDN博客
-https://blog.csdn.net/liang19890820/article/details/51658574/
-
-
-
-Memory card - Wikipedia
-https://en.wikipedia.org/wiki/Memory_card
-
-
+Memory card - Wikipedia https://en.wikipedia.org/wiki/Memory_card
 
 正则表达式之贪婪匹配
 
-
-
 古代（好心做坏事的故事）“燕太子丹砍了一个美女的手给荆轲”。【威县吧】_百度贴吧 http://tieba.baidu.com/p/2136667001?traceid=
 
+C语言操作SQLite数据库 - 布伊什 - 博客园 http://www.cnblogs.com/buyishi/p/8597541.html
 
+[git] [已解决] 在windows系统上使用msysgit / git / tortoisegit，访问git协议的仓库时。git push会卡住没反应。 - 林南 - 博客园 https://www.cnblogs.com/lin2yatou/p/4016430.html
 
-C语言操作SQLite数据库 - 布伊什 - 博客园
-http://www.cnblogs.com/buyishi/p/8597541.html
+Opencc Download (DEB, RPM, TXZ, XZ) https://pkgs.org/download/opencc
+
+Note: getContentLengthLong() should be preferred over this method, since it returns a long instead and is therefore more portable.
+
+用Java编写的HTTP请求工具类 --- BLOG
+
+BufferedOutputStream (Java Platform SE 8 ) https://docs.oracle.com/javase/8/docs/api/java/io/BufferedOutputStream.html
+BufferedInputStream (Java Platform SE 8 ) https://docs.oracle.com/javase/8/docs/api/java/io/BufferedInputStream.html
